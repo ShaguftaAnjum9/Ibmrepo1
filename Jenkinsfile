@@ -7,6 +7,12 @@ pipeline {
       }
     }
 
+    stage('Stage 2') {
+      steps {
+        echo 'IBM_WebAppDevelopment1'
+      }
+    }
+
   }
   environment {
     dev = 'devval'
