@@ -16,5 +16,6 @@ pipeline {
   }
   environment {
     dev = 'devval'
+    str = 'strv'
   }
 }
