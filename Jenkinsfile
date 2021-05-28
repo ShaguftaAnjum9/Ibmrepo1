@@ -13,9 +13,16 @@ pipeline {
       }
     }
 
+    stage('Stage 3') {
+      steps {
+        echo 'Status is Successfull'
+      }
+    }
+
   }
   environment {
     dev = 'devval'
     str = 'strv'
+    third = 'thirdv'
   }
 }
